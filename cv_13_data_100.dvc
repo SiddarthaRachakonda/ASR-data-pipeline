@@ -1,0 +1,6 @@
+outs:
+- md5: 4644ab0c5878418c1c166b0a2060c472.dir
+  size: 438386
+  nfiles: 13
+  hash: md5
+  path: cv_13_data_100

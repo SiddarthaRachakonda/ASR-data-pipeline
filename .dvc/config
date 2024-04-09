@@ -1,0 +1,4 @@
+[core]
+    remote = cv_13_data_100/
+['remote "cv_13_data_100/"']
+    url = gs://asr-data-storage/dvc_store

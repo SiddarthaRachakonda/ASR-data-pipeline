@@ -12,6 +12,8 @@ moviepy = "*"
 numpy = "*"
 dvc = "*"
 dvc-gs = "*"
+tensorflow = "*"
+datasets = "*"
 
 [dev-packages]
 

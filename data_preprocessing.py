@@ -56,7 +56,6 @@ def train_pre_process(file_path, max_audio_size=10, sampling_rate=16000):
     return get_mel_spectrogram(y, sr)
 
 
-
 def inference_pre_process(file_path, max_audio_size=10, sampling_rate=16000):
     """Pre-process the file for inference"""
 

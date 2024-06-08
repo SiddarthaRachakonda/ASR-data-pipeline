@@ -58,7 +58,7 @@ def create_tf_records(data, num_shards=200, prefix='', folder='data', bucket_nam
     num_records = len(data)
     step_size = num_records // num_shards + 1
 
-    for i in range(65910, num_records, step_size):
+    for i in range(0, num_records, step_size):
         print("Creating shard:", (i // step_size), " from records:", i, "to", (i + step_size))
         path = '{}/{}_000{}.tfrecords'.format(folder, prefix, i // step_size)
         print(path)
